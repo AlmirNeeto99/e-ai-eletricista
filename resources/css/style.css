@@ -14,3 +14,21 @@
     width: 70px;
     height: 70px;
 }
+
+li {
+    list-style: none;
+}
+
+li::before {
+
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+
+    content: '\f061';
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    margin-right: 5px;
+}
