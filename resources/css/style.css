@@ -2,3 +2,14 @@
     width: 100%;
     height: 1px;
 }
+
+#wpp-float {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+#wpp-float img {
+    width: 70px;
+    height: 70px;
+}
