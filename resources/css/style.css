@@ -16,6 +16,12 @@
     --bs-heading-color: #cda321;
     --bs-body-bg: #FEFEFE;
     --bs-primary-rgb: 90, 210, 244;
+    --bs-nav-link-font-size: 1.1em;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 1.25em;
+    --bs-nav-link-padding-y: 1.25em;
 }
 
 .card {
