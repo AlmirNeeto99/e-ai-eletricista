@@ -74,3 +74,12 @@ li::before {
 .zoom:hover {
     transform: scale(1.1);
 }
+
+#main-carousel {
+    height: 80vh;
+}
+
+#main-carousel img {
+    height: 80vh;
+    object-fit: cover;
+}
