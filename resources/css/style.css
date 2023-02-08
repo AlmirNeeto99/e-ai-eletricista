@@ -4,7 +4,7 @@
     - baby blue: 5ad2f4 // rgb(90 210 244)
     - skin: F9F8EB
     - white: FEFEFE
-    - curry: cda321
+    - curry: cda321 // rgb(252 170 70)
     - gray: 949da0
     - car blue: 02a0e7
     - dark blue: 143274
@@ -13,10 +13,11 @@
 */
 
 :root {
-    --bs-heading-color: #cda321;
+    --bs-heading-color: #FCAA46;
     --bs-body-bg: #FEFEFE;
     --bs-primary-rgb: 90, 210, 244;
     --bs-nav-link-font-size: 1.5em;
+    --bs-warning-rgb: 252, 170, 70;
 }
 
 .navbar-nav {
@@ -82,4 +83,18 @@ li::before {
 #main-carousel img {
     height: 80vh;
     object-fit: cover;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #65b892;
+    --bs-btn-border-color: #65b892;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #479a74;
+    --bs-btn-hover-border-color: #479a74;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
 }
