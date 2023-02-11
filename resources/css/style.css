@@ -25,6 +25,8 @@
     --bs-body-color: white;
 
     --bs-dark-rgb: 1, 9, 20;
+
+    --bs-body-font-size: 1.1rem;
 }
 
 .navbar-nav {
