@@ -23,6 +23,8 @@
 
     --bs-body-bg: #010914;
     --bs-body-color: white;
+
+    --bs-dark-rgb: 1, 9, 20;
 }
 
 .navbar-nav {
