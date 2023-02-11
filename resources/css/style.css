@@ -111,3 +111,13 @@ li::before {
     right: 0;
     left: 0;
 }
+
+.fs-4-rem {
+    font-size: 4rem !important;
+}
+
+@media screen and (max-width:1000px) {
+    .fs-4-rem {
+        font-size: 2rem !important;
+    }
+}
