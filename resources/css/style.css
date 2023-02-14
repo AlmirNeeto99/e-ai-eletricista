@@ -14,7 +14,7 @@
 
 :root {
     --bs-heading-color: #e3a611;
-    --bs-body-bg: #FEFEFE;
+
     --bs-primary-rgb: 255, 255, 255;
     --bs-nav-link-font-size: 1.5em;
     --bs-warning-rgb: 227, 166, 17;
@@ -122,4 +122,8 @@ li::before {
     .fs-4-rem {
         font-size: 2rem !important;
     }
+}
+
+.custom-tooltip{
+    --bs-tooltip-bg: var(--bs-body-color);
 }
