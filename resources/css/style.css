@@ -124,6 +124,10 @@ li::before {
     }
 }
 
-.custom-tooltip{
+.custom-tooltip {
     --bs-tooltip-bg: var(--bs-body-color);
+}
+
+.instagram-icon {
+    color: #DD2A8B;
 }
